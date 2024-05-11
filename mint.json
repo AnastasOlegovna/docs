@@ -67,13 +67,13 @@
         "essentials/navigation",
         "essentials/reusable-snippets"
       ]
-    },
+ },
     {
       "group": "API Documentation",
-      "pages": [
-        "api-reference/introduction"
-      ]
+      "pages":
+      ["api-reference/introduction"]
     },
+
     {
       "group": "Endpoint Examples",
       "pages": [
@@ -88,4 +88,9 @@
     "github": "https://github.com/mintlify",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
-}
+},
+"security": [
+  {
+    "bearerAuth": [12345]
+  }
+]
